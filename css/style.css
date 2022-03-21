@@ -86,7 +86,7 @@ nav {
     border-radius: 30px;
     margin-top: 16px;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .header_picture{
@@ -100,13 +100,16 @@ nav {
     display: block;
 }
 
+.main{
+    position: relative;
+}
+
 /* SECTION */
 .section{
-    /* border: 1px solid green; */
     border-radius: 15px;
     box-shadow: 0px 0px 12px 5px rgba(92, 90, 90, 0.1);
     width: 90%;
-    height: 560px;
+    height: 540px;
     margin: 0 auto;
     margin-top: 60px;
 }
@@ -121,7 +124,6 @@ nav {
     width: 100%;
     max-width: 360px;
     display: block;
-    margin: 0 auto; 
 }
 
 .section_texts{
@@ -142,9 +144,112 @@ nav {
     padding: 5px 10px 0 10px;
 }
 
+.main{
+    margin-bottom: 230px;
+}
 
+/* QUESTION */
+.question{
+    width: 90%;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px 5px rgba(92, 90, 90, 0.1);
+    margin: 0 auto;
+    margin-top: 130px;
+    position: absolute;
+    top: 1735px;
+    left: 20px;
+    z-index: 100;
+}
 
+.question_texts{
+    text-align: center;
+    --padding-container: 40px 0;
+}
 
+.subtitle_size{
+    font-size: 17px;
+}
+
+/* FOOTER */
+.footer{
+    background-color: var(--very-dark-cyan);
+    color: var(--grayish-blue);
+    font-weight: 600;
+}
+
+.footer_container{
+    padding-top: 130px;
+    padding-bottom: 20px;
+}
+
+.footer_figure{
+    margin-left: 0;
+}
+
+.footer_logo2{
+    width: 150px;
+}
+
+.footer_contact{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+.footer_img{
+    width: 15px;
+    height: 15px;
+    padding-right: 20px;
+    padding-top: 7px;
+}
+
+.footer_paragraph{
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+
+.footer_information{
+    margin-top: 50px;
+}
+
+.footer_item{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer_items{
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+.footer_link{
+    color: var(--grayish-blue);
+    text-decoration: none;
+}
+
+.footer_social{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 40px;
+}
+
+.footer_icon{
+    width: 35px;
+    height: 35px;
+    border: 1px solid var(--grayish-blue);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.footer_copy{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 12px;
+}
 
 
 
