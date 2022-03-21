@@ -18,6 +18,7 @@ body{
 .header {
     min-height: 100vh;
     position: relative;
+    background-color: #EDFBFE;
 }
 
 nav {
@@ -54,6 +55,49 @@ nav {
     border-radius: 30px;
     font-weight: 600;
     box-shadow: 0 0 1px;
+}
+
+.header_main{
+    text-align: center;
+    color: var(--very-dark-cyan);
+    background-image: url(../images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+}
+
+.header_title{
+    font-family: var(--poppins);
+    line-height: 1.5em;
+
+}
+
+.header_paragraph{
+    width: 90%;
+    line-height: 1.5;
+    margin: 16px auto;
+}
+
+.cta{
+    display: inline-block;
+    background-color: var(--pink);
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 45px;
+    border-radius: 30px;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header_picture{
+    margin-top: 80px;
+}
+
+.header_img{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
 }
 
 
