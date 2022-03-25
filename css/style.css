@@ -179,12 +179,13 @@ nav {
 }
 
 .footer_container{
-    padding-top: 130px;
+    padding-top: 30px;
     padding-bottom: 20px;
 }
 
 .footer_figure{
-    margin-left: 0;
+    margin-left: 10px;
+    padding-top: 160px;
 }
 
 .footer_logo2{
@@ -248,7 +249,9 @@ nav {
     display: flex;
     justify-content: center;
     padding-top: 15px;
+    padding-bottom: 15px;
     font-size: 12px;
+    margin-bottom: 0px;
 }
 
 
@@ -318,6 +321,40 @@ nav {
         top: 1330px;
         left: 230px;
         width: 600px;
+        align-items: center;
+    }
+
+    .footer_figure{
+        margin-left: 57px;
+    }
+
+    .footer_container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer_details{
+        flex-direction: column;
+    }
+
+    .footer_contact{
+        width: 350px;
+        height: 80px;
+        margin: 0;
+    }
+
+    .footer_information{
+        margin-top: 0px;
+        width: 500px;
+        padding-left: 40px;
+    }
+
+    .footer_items{
+        width: 200px;
+    }
+
+    .footer_social{
+        margin-top: 5px;
     }
 
 }
